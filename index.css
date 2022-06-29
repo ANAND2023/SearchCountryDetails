@@ -1,0 +1,50 @@
+.main
+{
+    width:100vw;
+    height:100vh;
+
+}
+.center
+{
+    width:60vw;
+    margin:auto
+}
+input
+{
+    width:100%;
+    padding:10px
+}
+button
+{
+    width:100%;
+    padding:10px;
+    background-color:green;
+    color:white;
+    border :none;
+    border-radius:3px;
+    margin-top:10px;
+}
+table
+{
+  width:60vw;
+  max-width:60vw;
+  overflow:auto;  
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+tr
+{
+    background-color:blueviolet;
+    color:white;
+}
+tr:nth-child(even)
+{
+    background-color:blue;
+    color:white;
+}
+th,td
+{
+     padding:15px;
+}
